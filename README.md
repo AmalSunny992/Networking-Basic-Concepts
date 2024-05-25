@@ -11,7 +11,7 @@ Welcome to the Networking Learning Repository! This repository is designed to he
 6. [IP Subnetting](./subnetting.md)
 7. [DNS](./dns.md)
 8. [HTTP](./http.md)
-9. [Network Tools]
+9. [Network Tools](./ping.md)
    1. [Ping](./ping.md)
    2. [Traceroute](./traceroute.md)
    3. [Telnet](./telnet.md)
