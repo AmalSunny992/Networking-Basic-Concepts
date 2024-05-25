@@ -120,5 +120,5 @@ F5 Load Balancer is a product from F5 Networks that distributes network or appli
 ## Palo alto network dashboard : 
 Palo Alto Networks provides network security solutions, and their dashboard is a web-based interface used for monitoring and managing network security appliances. It offers visibility into network traffic, threat prevention, and policy management.
 
-## secure pulse :
+## Secure Pulse :
 Pulse Secure is a company that provides secure access solutions. "Secure Pulse" likely refers to their suite of products designed to provide secure remote access to corporate networks and applications, including VPNs and Zero Trust network access solutions.
