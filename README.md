@@ -7,8 +7,7 @@ Welcome to the Networking Learning Repository! This repository is designed to he
 2. OSI Model
 3. TCP/IP
 4. IP Adresses
-    1. IPV4
-    2. IPV6
+    1. IPV4 vs IPV6
 6. IP Subnetting
 7. DNS
 8. HTTP
