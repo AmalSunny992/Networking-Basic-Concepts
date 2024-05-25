@@ -1,6 +1,6 @@
 # Basic Networking Concepts
 
-Welcome to the Networking Learning Repository! This repository is designed to help you understand the basics of Networking.
+Welcome to the Networking Learning Repository! This repository is designed to helps understand the basics of Networking.
 
 ## Table of Contents
 1. [Introduction to Networking](./basic-networking.md)
