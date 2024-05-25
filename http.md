@@ -18,9 +18,13 @@ You’ve probably seen them floating around in pop culture references or been on
 There are 4 categories of HTTP responses:
 
 200s: Successful responses
+
 300s: Redirects
+
 400s: Client errors
+
 500s: Server errors
+
 Take a look at some of the most common response codes:
 
 ![image](https://github.com/AmalSunny992/networkingconcepts/assets/169422802/e5d6761c-bd92-4f88-afe1-b3c9337c328c)
