@@ -1,6 +1,6 @@
 # Summary
 
-## OSI
+## OSI :
 There are 7 layers to the OSI model of a network that build upon each other.
 seven layers:
 - **Physical Layer**: Deals with the physical connection between devices.
@@ -11,7 +11,7 @@ seven layers:
 - **Presentation Layer**: Translates data formats.
 - **Application Layer**: Provides network services to end-users.
 
-## TCP/IP
+## TCP/IP :
 TCP is a connection-oriented protocol on the transfer layer (use for security); UDP is also on the transfer layer but it’s connectionless (use for speed)
 TCP ports use digital identifiers to identify the right type of process for a command.
 It has four layers:
@@ -20,7 +20,7 @@ It has four layers:
 - **Transport Layer**: Same as OSI's Transport layer, using TCP/UDP protocols.
 - **Application Layer**: Merges OSI's Application, Presentation, and Session layers.
 
-## IP Addressing
+## IP Addressing :
 IP addresses are necessary to use the internet. Some IP addresses are a combination of host and network; the subnet mask breaks apart which is which.
 IPV4 : IPv4 addresses are 32-bit numbers and contains two primary parts—the network prefix and the host number. 
 IPV6 : IPv6 is a 128-bits address and consists of eight groups of four hexadecimal digits.
@@ -28,29 +28,29 @@ IPV6 : IPv6 is a 128-bits address and consists of eight groups of four hexadecim
 There are 5 classes of IP addresses, each with different lengths for prefixes and a predetermined amount of addresses under that class.
 Classless Interdomain Routing (CIDR) is a solution to the problem of non-ideal numbers of IP addresses—by removing classes, it removes the need for specific caps on totals.
 
-## Routing
+## Routing :
 Routing is the process of sending information over a network. It involves determining the path for data to travel from source to destination across networks.
 Key protocols include:
 - **RIP (Routing Information Protocol)**
 - **OSPF (Open Shortest Path First)**
 - **BGP (Border Gateway Protocol)**
 
-## Subnetting
+## Subnetting :
 Subnetting divides an IP network into smaller sub-networks to improve routing efficiency and network management. 
 
 ## DHCP : 
 Dynamic Host Configuration Protocol automates the assignment of IP addresses, subnet masks, and other network settings to devices on a network.
 
-## DNS 
+## DNS :
 The DNS network translates computer language to human language and gives names to domains across the network. You can do lookups to find the IP address associated with a certain DN. Domains are owned, but an owner can delegate certain parts to new owners.
 
-## NAT 
+## NAT :
 Network Address Translation translates private IP addresses to a public IP address for accessing the internet, conserving the number of public IP addresses used.
 
-## VPN 
+## VPN :
 A Virtual Private Network extends a private network across a public network, enabling secure communication and remote access.
 
-## Firewalls
+## Firewalls :
 Firewalls are security systems that monitor and control incoming and outgoing network traffic based on predetermined security rules.
 
 ## HTTP : 
@@ -63,19 +63,19 @@ HTTPS transmits all data in encrypted form. When users submit sensitive data, th
 **SSL (Secure Sockets Layer)**: A deprecated protocol for securing internet communication through encryption.
 **TLS (Transport Layer Security)**: The successor to SSL, providing enhanced security and performance for secure communication over a network
 
-## Wireless Networking
+## Wireless Networking :
 - **Wi-Fi**: A technology for wireless local area networking with devices based on the IEEE 802.11 standards.
 - **Bluetooth**: A standard for short-range wireless communication between devices.
 
 
-## Network Topologies
+## Network Topologies :
 The arrangement of different elements (links, nodes) in a computer network. Common topologies include:
 - **Bus Topology**
 - **Star Topology**
 - **Ring Topology**
 - **Mesh Topology**
 
-## Network Devices
+## Network Devices :
 - **Router**: Directs data packets between networks.
 - **Switch**: Connects devices within a single network, using MAC addresses to forward data to the correct device.
 - **Modem**: Modulates and demodulates signals for data transmission over telephone lines or cable.
