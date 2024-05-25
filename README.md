@@ -21,7 +21,8 @@ Welcome to the Networking Learning Repository! This repository is designed to he
    7. [Netstat](./netstat.md)
    8. [ssh](./ssh.md)
    9. [scp](./scp.md)
-10. [Useful Links](./useful-links.md)
+10. [Summary](./summary.md)
+11. [Useful Links](./useful-links.md)
 
 # License
 This project is licensed under the terms of the Apache license. See the LICENSE file for details.
