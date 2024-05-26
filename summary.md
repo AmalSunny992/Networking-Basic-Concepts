@@ -24,9 +24,7 @@ It has four layers:
 IP addresses are necessary to use the internet. Some IP addresses are a combination of host and network; the subnet mask breaks apart which is which.
 IPV4 : IPv4 addresses are 32-bit numbers and contains two primary parts—the network prefix and the host number. 
 IPV6 : IPv6 is a 128-bits address and consists of eight groups of four hexadecimal digits.
-
 There are 5 classes of IP addresses, each with different lengths for prefixes and a predetermined amount of addresses under that class.
-Classless Interdomain Routing (CIDR) is a solution to the problem of non-ideal numbers of IP addresses—by removing classes, it removes the need for specific caps on totals.
 
 ## Routing :
 Routing is the process of sending information over a network. It involves determining the path for data to travel from source to destination across networks.
@@ -36,7 +34,48 @@ Key protocols include:
 - **BGP (Border Gateway Protocol)**
 
 ## Subnetting :
-Subnetting divides an IP network into smaller sub-networks to improve routing efficiency and network management. 
+Subnetting divides an IP network into smaller sub-networks to improve routing efficiency and network management.
+
+## CIDR
+CIDR stands for Classless Inter-Domain Routing. It's a method for allocating IP addresses and routing Internet Protocol packets.
+CIDR combines the IP address with a number that indicates how many bits are used for the network part. 
+This number follows a slash. For example, 192.168.1.0/24 means the first 24 bits are the network part.
+
+**/32** : This represents a single IP address because all 32 bits are used for the network part. 
+          For example, 192.168.1.1/32 means only the IP 192.168.1.1.
+
+**/31** : This is used for point-to-point links, providing 2 IP addresses. 
+          For example, 192.168.1.0/31 includes 192.168.1.0 and 192.168.1.1.
+
+**/30** : Provides 4 IP addresses (2 usable for hosts).
+          For example, 192.168.1.0/30 includes 192.168.1.0 to 192.168.1.3.
+
+**/29** : Provides 8 IP addresses (6 usable for hosts).  
+          For example, 192.168.1.0/29 includes 192.168.1.0 to 192.168.1.7.
+
+**/28** : Provides 16 IP addresses (14 usable for hosts). 
+          For example, 192.168.1.0/28 includes 192.168.1.0 to 192.168.1.15.
+
+**/27** : Provides 32 IP addresses (30 usable for hosts). 
+          For example, 192.168.1.0/27 includes 192.168.1.0 to 192.168.1.31.
+
+**/26** : Provides 64 IP addresses (62 usable for hosts). 
+          For example, 192.168.1.0/26 includes 192.168.1.0 to 192.168.1.63.
+
+**/25** : Provides 128 IP addresses (126 usable for hosts). 
+          For example, 192.168.1.0/25 includes 192.168.1.0 to 192.168.1.127.
+
+**/24** : Provides 256 IP addresses (254 usable for hosts). This is equivalent to a traditional Class C network. 
+          For example, 192.168.1.0/24 includes 192.168.1.0 to 192.168.1.255.
+
+**/16** : Provides 65,536 IP addresses (65,534 usable for hosts). This is equivalent to a traditional Class B network. 
+          For example, 192.168.0.0/16 includes 192.168.0.0 to 192.168.255.255.
+
+**/8** : Provides 16,777,216 IP addresses (16,777,214 usable for hosts). This is equivalent to a traditional Class A network. 
+          For example, 10.0.0.0/8 includes 10.0.0.0 to 10.255.255.255.
+
+**/0** : This includes all possible IP addresses (entire IPv4 address space). 
+          For example, 0.0.0.0/0 means the entire IPv4 range from 0.0.0.0 to 255.255.255.255.
 
 ## DHCP : 
 Dynamic Host Configuration Protocol automates the assignment of IP addresses, subnet masks, and other network settings to devices on a network.
@@ -92,9 +131,6 @@ Real-time Transport Protocol is a protocol designed for delivering audio and vid
 
 ## local host :
 Localhost refers to the hostname used to access the loopback network interface of a computer, usually mapped to the IP address 127.0.0.1 in IPv4 and ::1 in IPv6. It is used for testing and development purposes as it allows network services to communicate with each other on the same machine.
-
-## Seeder Block : 
-In the context of BitTorrent, a seeder is a user who has a complete copy of the file being shared and is uploading it to other peers in the network. The term "Seeder Block" might refer to the initial group of seeders that help distribute the file to the rest of the network.
 
 ## Proxy : 
 A proxy server acts as an intermediary for requests from clients seeking resources from other servers. It can be used for various purposes such as anonymity, content filtering, and improving performance by caching frequently accessed resources.
