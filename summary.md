@@ -22,8 +22,11 @@ It has four layers:
 
 ## IP Addressing :
 IP addresses are necessary to use the internet. Some IP addresses are a combination of host and network; the subnet mask breaks apart which is which.
-IPV4 : IPv4 addresses are 32-bit numbers and contains two primary parts—the network prefix and the host number. 
-IPV6 : IPv6 is a 128-bits address and consists of eight groups of four hexadecimal digits.
+
+**IPV4** : IPv4 addresses are 32-bit numbers and contains two primary parts—the network prefix and the host number. 
+
+**IPV6** : IPv6 is a 128-bits address and consists of eight groups of four hexadecimal digits.
+
 There are 5 classes of IP addresses, each with different lengths for prefixes and a predetermined amount of addresses under that class.
 
 ## Routing :
