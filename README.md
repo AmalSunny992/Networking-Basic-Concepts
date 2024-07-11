@@ -24,7 +24,7 @@ Welcome to the Networking Learning Repository! This repository is designed to he
 3. Introduction to DNS and Load Balancing
     - [DNS](./dns.md)
     - [Load Balancing Concepts](./Load-Balancing.md)
-4.[Firewalls and Security Groups](./Firewalls-and-Security-Groups.md)
+4. [Firewalls and Security Groups](./Firewalls-and-Security-Groups.md)
 5. [Summary](./summary.md)
 12. [Useful Links](./useful-links.md)
 
